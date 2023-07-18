@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "f4DIvsEjSc+qcnWLooPeW5uf7JEsXOItG4vsdxvewOu9T/PffdqGvmj0l5ld2T/UsmeUVuXlNe8HJhzhSOw5AQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\winterthebestseason\\source\\repos\\ruvds-client\\ruvds-client\\ruvds-client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\winterthebestseason\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\5.0.17\\microsoft.netcore.app.runtime.linux-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\winterthebestseason\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\5.0.17\\microsoft.aspnetcore.app.runtime.linux-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\winterthebestseason\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\5.0.17\\microsoft.netcore.app.host.linux-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

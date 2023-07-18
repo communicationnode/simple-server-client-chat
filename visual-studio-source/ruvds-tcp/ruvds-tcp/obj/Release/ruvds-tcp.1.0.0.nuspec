@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ruvds-tcp</id>
+    <version>1.0.0</version>
+    <authors>urodEngine</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\winterthebestseason\source\repos\ruvds-tcp\ruvds-tcp\bin\Release\net5.0\ruvds-tcp.runtimeconfig.json" target="lib\net5.0\ruvds-tcp.runtimeconfig.json" />
+    <file src="C:\Users\winterthebestseason\source\repos\ruvds-tcp\ruvds-tcp\bin\Release\net5.0\ruvds-tcp.dll" target="lib\net5.0\ruvds-tcp.dll" />
+  </files>
+</package>

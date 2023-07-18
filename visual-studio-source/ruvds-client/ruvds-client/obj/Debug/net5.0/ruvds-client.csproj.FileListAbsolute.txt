@@ -1,0 +1,16 @@
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\bin\Debug\net5.0\ruvds-client.exe
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\bin\Debug\net5.0\ruvds-client.deps.json
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\bin\Debug\net5.0\ruvds-client.runtimeconfig.json
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\bin\Debug\net5.0\ruvds-client.runtimeconfig.dev.json
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\bin\Debug\net5.0\ruvds-client.dll
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\bin\Debug\net5.0\ref\ruvds-client.dll
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\bin\Debug\net5.0\ruvds-client.pdb
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\obj\Debug\net5.0\ruvds-client.csproj.AssemblyReference.cache
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\obj\Debug\net5.0\ruvds-client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\obj\Debug\net5.0\ruvds-client.AssemblyInfoInputs.cache
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\obj\Debug\net5.0\ruvds-client.AssemblyInfo.cs
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\obj\Debug\net5.0\ruvds-client.csproj.CoreCompileInputs.cache
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\obj\Debug\net5.0\ruvds-client.dll
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\obj\Debug\net5.0\ref\ruvds-client.dll
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\obj\Debug\net5.0\ruvds-client.pdb
+C:\Users\winterthebestseason\source\repos\ruvds-client\ruvds-client\obj\Debug\net5.0\ruvds-client.genruntimeconfig.cache

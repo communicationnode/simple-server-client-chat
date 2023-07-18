@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>ruvds_tcp</RootNamespace>
+    <Product>ruvds-tcp.prog</Product>
+    <Authors>urodEngine</Authors>
+    <Company>urodEngine</Company>
+    <PackageId>ruvds-tcp</PackageId>
+  </PropertyGroup>
+
+</Project>
