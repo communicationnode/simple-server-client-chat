@@ -1,5 +1,12 @@
 ## серверное мини-приложение для linux-x64 систем - "Чат"
 
+<details><summary> Что может пригодиться </summary>
+
+> git. для того, чтобы им пользоваться, установите его на linux-устройство </br>
+> arch -> ``` pacman -S git ``` </br>
+> debian -> ``` apt-get install git ``` </br> 
+</details>
+
 <details><summary> Внешний вид ruVds </summary>
   
 ![](readme-screenshots/main.bmp)
