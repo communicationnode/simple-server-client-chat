@@ -7,4 +7,4 @@ build_property.PublishSingleFile = False
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = ruvds_tcp
-build_property.ProjectDir = C:\Users\winterthebestseason\source\repos\ruvds-tcp\ruvds-tcp\
+build_property.ProjectDir = C:\Users\winterthebestseason\Desktop\ruVds-server-test\visual-studio-source\ruvds-tcp\ruvds-tcp\

@@ -3,25 +3,43 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
-using ruvds_client;
 
 namespace ruvds_client
 {
     public class Program
     {
-        public static TcpClient client;
-        public static void Main(string[] args)
+        // values
+        public  static TcpClient client;
+
+        // methods
+        public  static void Main        (string[] args)
         {
             client = new TcpClient();
-            Console.WriteLine("Enter IpAddress");
+
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("══════════════════════════════════════════════════════════════════════\n" +
+                "Enter IpAddress:");
+            Console.ForegroundColor = ConsoleColor.Green;
+            IPAddress.TryParse(Console.ReadLine(), out IPAddress ip);
+
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("══════════════════════════════════════════════════════════════════════\n" +
+                "Enter port:");
+            Console.ForegroundColor = ConsoleColor.Green;
+            ushort.TryParse(Console.ReadLine(), out ushort port);
+
+            Console.WriteLine("══════════════════════════════════════════════════════════════════════\n" +
+                $"Try connect to server with args: {ip} && {port}:");
             try
             {
-                client.Connect(IPAddress.Parse(Console.ReadLine()), 26950);
+                client.Connect(ip, port);
             }
             catch
             {
                 client.Connect(IPAddress.Parse("127.0.0.1"), 26950);
             }
+
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
 
             client.NoDelay = true;
 
@@ -32,7 +50,7 @@ namespace ruvds_client
                 SendMessage(Console.ReadLine());
             }           
         }
-        private static Task ReadClient()
+        private static Task ReadClient  ()
         {
             try
             {
@@ -60,7 +78,7 @@ namespace ruvds_client
             }
             return Task.CompletedTask;
         }
-        public static void SendMessage(in string message)
+        public  static void SendMessage (in string message)
         {
             try
             {

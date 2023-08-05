@@ -12,6 +12,8 @@ namespace ruvds_tcp
         public static TcpListener listener;
         public static List<TcpClient> clients = new List<TcpClient>();
 
+        public static string serverName = "UROD Engine";
+
 
         [MTAThread]
         public static void Main(string[] args)
@@ -22,7 +24,10 @@ namespace ruvds_tcp
             StartServer(ip, port);
 
             Task.Run(SearchClients);
-            Console.WriteLine("Wait for clients.");
+            Console.WriteLine("══════════════════════════════════════════════════════════════════════");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Waiting for clients.");
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
 
             while (true)
             {
@@ -32,12 +37,21 @@ namespace ruvds_tcp
 
         private static void SetArguments(out string ip, out ushort port)
         {
-            Console.WriteLine("Execute TCP server.\nEnter internal IPv4:");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("══════════════════════════════════════════════════════════════════════\n" +
+                "Started TCP server.\nEnter internal IPv4:");
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
             ip = Console.ReadLine();
 
-            Console.WriteLine($"ip = {ip}.\nEnter port:");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine($"══════════════════════════════════════════════════════════════════════\n" +
+                $"ip = {ip}.\nEnter port:");
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
             ushort.TryParse(Console.ReadLine(), out  port);
 
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine($"port = {port}\n");
         }
         private static void StartServer(in string ip, in ushort port)
@@ -53,6 +67,7 @@ namespace ruvds_tcp
 
             listener.Start();
             listener.Server.NoDelay = true;
+            Console.WriteLine("══════════════════════════════════════════════════════════════════════");
             Console.WriteLine($"Start TCP server. args: ip={listener.Server.LocalEndPoint}, port={port}");
         }
 
@@ -65,7 +80,7 @@ namespace ruvds_tcp
 
                 newClient.NoDelay = true;
                 Console.WriteLine($"New client has appeared: {newClient.Client.RemoteEndPoint}");
-                SendMessage("out Добро пожаловать на сервер \"Ебанутые кролики\"",newClient);
+                SendMessage($"out Добро пожаловать на сервер \"{serverName}\"", newClient);
 
                 Task.Run(()=> { ReadClient(newClient); });
             }
