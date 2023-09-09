@@ -27,7 +27,7 @@ profit </br>
 ![](readme-screenshots/server-and-clients.png)
 </details>
 
-<details><summary> Интерфейс клиента</summary>
+<details><summary> Client interface:</summary>
 
 By analogy with launching a server application, a client application is launched </br>
 but instead of ./ruVds-server-test/server/linux-x64/ruvds-tcp </br>
