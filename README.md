@@ -1,4 +1,4 @@
-## server mini-application for linux-x64 systems - "Chat"
+## :envelope: server mini-application for linux-x64 systems - "Chat" :envelope:
 
 <details><summary> What may be useful: </summary>
 
@@ -45,6 +45,6 @@ to communicate with other users, write say and a message after it </br>
 
 ----------------------------------------
 
-the program will ask you to enter the ip, and then the port.
+:page_with_curl: the program will ask you to enter the ip, and then the port.
 
 ----------------------------------------
