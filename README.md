@@ -1,28 +1,27 @@
-## серверное мини-приложение для linux-x64 систем - "Чат"
+## server mini-application for linux-x64 systems - "Chat"
 
-<details><summary> Что может пригодиться </summary>
+<details><summary> What may be useful: </summary>
 
-git. для того, чтобы им пользоваться, установите его на linux-устройство </br>
+git. in order to use it, install it on a Linux device </br>
 arch -> ``` pacman -S git ``` </br>
-debian -> ``` apt-get install git ``` </br> 
+debian -> ``` apt-get install git ``` </br>
 </details>
 
-<details><summary> Внешний вид ruVds </summary>
+<details><summary> ruVds site interface: </summary>
   
 ![](readme-screenshots/main.bmp)
 </details>
-<details><summary> PuTTY интерфейс</summary>
+<details><summary> PuTTY interface:</summary>
 
-Подключившись к vds машине по ssh далее идет установка этого терминального приложения через git clone </br>
-через git clone устанавливается репозиторий```</br>
-через cd пользователь добирается до ./ruVds-server-test/server/linux-x64/ruvds-tcp </br>
-через chmod 755 ./ruvds-tcp пользователь получает разрешение на запуск приложения </br>
-через ./ruvds-tcp пользователь запускает сервер приложение </br>
-
+Having connected to the vds machine via ssh, the next step is to install this terminal application via git clone </br>
+the repository is installed via git clone</br>
+via cd the user gets to ./ruVds-server-test/server/linux-x64/ruvds-tcp </br>
+via chmod 755 ./ruvds-tcp the user gets permission to run the application </br>
+via ./ruvds-tcp the user launches the server application </br>
 ![](readme-screenshots/server-log.png)
 
-далее на сервере пользователь вбивает внешний ip vds машины </br>
-далее на сервере пользователь вбивает порт, по которому будет прослушивание </br>
+then on the server the user enters the external ip vds of the machine </br>
+then on the server the user enters the port on which listening will be done </br>
 profit </br>
 
 ![](readme-screenshots/server-and-clients.png)
@@ -30,22 +29,22 @@ profit </br>
 
 <details><summary> Интерфейс клиента</summary>
 
-по аналогии с запуском сервер-приложения запускается клиент-приложение </br>
-но вместо ./ruVds-server-test/server/linux-x64/ruvds-tcp </br>
-нужно перейти по директории ./ruVds-server-test/client/linux-x64/ruvds-client </br>
+By analogy with launching a server application, a client application is launched </br>
+but instead of ./ruVds-server-test/server/linux-x64/ruvds-tcp </br>
+you need to go to the directory ./ruVds-server-test/client/linux-x64/ruvds-client </br>
 
 ![](readme-screenshots/client-log.png)
 
 -----------------
 
-приложение попросит ввести внешний ip сервера, чтобы подключиться к нему </br>
-если вы получите сообщение: Добро пожаловать на сервер "UROD Engine"  </br>
-то вы успешно подключились к серверу и теперь можете вывести справку командой help </br>
-чтобы общаться с другими пользователями, напишите say и сообщение после него </br>
+the application will ask you to enter the external server IP to connect to it </br>
+if you receive the message: Welcome to the server "UROD Engine" </br>
+then you have successfully connected to the server and can now display help with the help command </br>
+to communicate with other users, write say and a message after it </br>
 </details>
 
 ----------------------------------------
 
-программа попросит ввести ip, а потом порт.
+the program will ask you to enter the ip, and then the port.
 
 ----------------------------------------
