@@ -1,5 +1,11 @@
 ## :envelope: server mini-application for linux-x64 systems - "Chat" :envelope:
 
+![Static Badge](https://img.shields.io/badge/communicationnode-communicationnode)
+![GitHub top language](https://img.shields.io/github/languages/top/communicationnode/ruVds-server-test)
+![GitHub](https://img.shields.io/github/license/communicationnode/ruVds-server-test)
+![GitHub Repo stars](https://img.shields.io/github/stars/communicationnode/ruVds-server-test)
+
+
 <details><summary> What may be useful: </summary>
 
 git. in order to use it, install it on a Linux device </br>
