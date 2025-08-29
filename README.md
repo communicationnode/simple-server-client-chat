@@ -14,9 +14,9 @@ debian -> ``` apt-get install git ``` </br>
 </details>
 
 <details><summary> ruVds site interface: </summary>
-  
-![](readme-screenshots/main.bmp)
+![](readme-screenshots/main.png)
 </details>
+
 <details><summary> PuTTY interface:</summary>
 
 Having connected to the vds machine via ssh, the next step is to install this terminal application via git clone </br>
