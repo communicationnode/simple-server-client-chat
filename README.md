@@ -14,7 +14,7 @@ debian -> ``` apt-get install git ``` </br>
 </details>
 
 <details><summary> ruVds site interface: </summary>
-![](readme-screenshots/main.png)
+<image src="readme-screenshots/main.png"></image>
 </details>
 
 <details><summary> PuTTY interface:</summary>
